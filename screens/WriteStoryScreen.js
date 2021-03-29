@@ -1,5 +1,6 @@
 import * as React from "react";
-import {View ,Text,TouchableOpacity, Header,StyleSheet,Image,TextInput} from "react-native";
+import {View ,Text,TouchableOpacity, StyleSheet,Image,TextInput} from "react-native";
+import {Header} from "react-native-element";
 
 export default class WriteStoryScreen extends React.Component{
     render(){
