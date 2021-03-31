@@ -2,8 +2,8 @@ import  React from 'react';
 import {Stylesheet,Text,View,Image} from 'react-native'
 import{createAppContainer} from 'react-navigation'
 import {createBottomTabNavigator} from 'react-navigation-tabs'
-import {WriteStoryScreen} from './screens/WriteStoryScreen'
-import {ReadStoryScreen} from './screens/ReadStoryScreen'
+import WriteStoryScreen from './screens/WriteStoryScreen'
+import ReadStoryScreen from './screens/ReadStoryScreen'
 
 export default class App extends React.Component {
     render(){
